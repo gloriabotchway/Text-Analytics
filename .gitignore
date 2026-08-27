@@ -1,0 +1,12 @@
+# Large local-only artifacts not needed for Streamlit Cloud
+llama.cpp/
+llama_customer_service_fused/
+llama_customer_service_lora_adapters/
+data/mlx_finetune/
+Modelfile
+
+# Python/IDE clutter
+__pycache__/
+*.pyc
+.venv/
+.idea/

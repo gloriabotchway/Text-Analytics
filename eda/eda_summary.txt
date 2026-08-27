@@ -1,0 +1,50 @@
+EXPLORATORY TEXT ANALYTICS SUMMARY
+========================================
+n_rows: 26872
+n_categories: 11
+n_intents: 27
+avg_instruction_words: 8.69
+avg_response_words: 104.79
+pct_instructions_with_slot: 24.8
+vocab_size_raw: 2642
+
+Top tokens:
+  slot0: 6670
+  help: 6319
+  can: 5495
+  need: 4063
+  account: 3614
+  see: 3127
+  want: 3110
+  assistance: 3006
+  know: 2698
+  check: 2568
+  order: 1974
+  payment: 1959
+  addres: 1950
+  purchase: 1603
+  customer: 1229
+  t: 1192
+  delivery: 1075
+  shipp: 1028
+  try: 1021
+  cancel: 999
+  bill: 990
+  problem: 976
+  product: 959
+  ur: 946
+  newsletter: 940
+
+Vocabulary richness by category (unique tokens):
+category
+ACCOUNT         617
+ORDER           514
+REFUND          358
+CONTACT         343
+SHIPPING        317
+FEEDBACK        315
+PAYMENT         309
+INVOICE         296
+DELIVERY        240
+SUBSCRIPTION    192
+CANCEL          171

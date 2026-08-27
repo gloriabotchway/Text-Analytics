@@ -1,0 +1,73 @@
+MODEL 1 - Multinomial Naive Bayes
+==================================================
+                          precision    recall  f1-score   support
+
+            cancel_order       0.97      0.98      0.98       200
+            change_order       0.97      0.95      0.96       199
+ change_shipping_address       0.98      0.99      0.99       195
+  check_cancellation_fee       1.00      1.00      1.00       190
+           check_invoice       0.99      0.96      0.97       200
+   check_payment_methods       1.00      1.00      1.00       200
+     check_refund_policy       0.99      1.00      0.99       199
+               complaint       1.00      1.00      1.00       200
+contact_customer_service       1.00      0.99      0.99       200
+     contact_human_agent       0.99      0.99      0.99       200
+          create_account       0.99      0.99      0.99       199
+          delete_account       0.99      1.00      0.99       199
+        delivery_options       0.99      1.00      0.99       199
+         delivery_period       1.00      1.00      1.00       200
+            edit_account       0.99      1.00      1.00       200
+             get_invoice       0.98      0.99      0.99       200
+              get_refund       1.00      0.94      0.97       199
+ newsletter_subscription       1.00      1.00      1.00       200
+           payment_issue       0.99      0.98      0.99       200
+             place_order       1.00      0.97      0.98       200
+        recover_password       0.99      1.00      1.00       199
+   registration_problems       0.99      0.99      0.99       200
+                  review       1.00      1.00      1.00       199
+ set_up_shipping_address       0.99      1.00      1.00       199
+          switch_account       1.00      0.98      0.99       200
+             track_order       0.97      0.97      0.97       199
+            track_refund       0.96      1.00      0.98       200
+
+                accuracy                           0.99      5375
+               macro avg       0.99      0.99      0.99      5375
+            weighted avg       0.99      0.99      0.99      5375
+
+
+MODEL 2 - Linear SVM
+==================================================
+                          precision    recall  f1-score   support
+
+            cancel_order       0.99      0.98      0.99       200
+            change_order       0.97      0.97      0.97       199
+ change_shipping_address       0.99      1.00      0.99       195
+  check_cancellation_fee       1.00      1.00      1.00       190
+           check_invoice       0.99      0.97      0.98       200
+   check_payment_methods       1.00      1.00      1.00       200
+     check_refund_policy       1.00      0.99      1.00       199
+               complaint       1.00      1.00      1.00       200
+contact_customer_service       1.00      0.99      0.99       200
+     contact_human_agent       0.99      0.99      0.99       200
+          create_account       0.98      0.99      0.98       199
+          delete_account       0.99      0.99      0.99       199
+        delivery_options       0.98      1.00      0.99       199
+         delivery_period       1.00      0.99      1.00       200
+            edit_account       0.98      1.00      0.99       200
+             get_invoice       0.98      0.99      0.99       200
+              get_refund       0.99      1.00      1.00       199
+ newsletter_subscription       1.00      1.00      1.00       200
+           payment_issue       1.00      0.98      0.99       200
+             place_order       1.00      0.99      0.99       200
+        recover_password       0.99      1.00      1.00       199
+   registration_problems       0.99      0.99      0.99       200
+                  review       1.00      1.00      1.00       199
+ set_up_shipping_address       1.00      0.99      1.00       199
+          switch_account       0.99      0.98      0.99       200
+             track_order       0.99      0.96      0.98       199
+            track_refund       1.00      1.00      1.00       200
+
+                accuracy                           0.99      5375
+               macro avg       0.99      0.99      0.99      5375
+            weighted avg       0.99      0.99      0.99      5375
+
