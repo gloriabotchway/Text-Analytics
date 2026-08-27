@@ -70,4 +70,4 @@ Python · pandas · scikit-learn · Streamlit · MLX · llama.cpp · Ollama
 
 ## Author
 
-Gloria Botchway, University of Ghana, Department of Computer Science — August 2026
+Gloria Botchway, University of Ghana, Department of Mathematics— August 2026
